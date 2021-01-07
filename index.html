@@ -1,11 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="galleryStyle.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <main class="" id="mainContent">
+        <section class="top-banner-section">
+            <!-- The CSS grid area that displays the image (layer 1) -->
+            <div class="banner-image-div">
+                <img class="banner-image" id="heroImage"
+                    src="siteAssets/siteIMG/Hero_image-albastru.png"
+                    alt="Banner Image" />
+            </div>
+            <!-- The CSS grid area that displays the semi-transparent gradient overlay (layer 2) -->
+            <div class="banner-overlay-div"></div>
+            <!-- The CSS grid area that displays the content (layer 3) -->
+            <div class="banner-text-div">
+                <span class="banner-text">
+                    <p class="banner-h1-text">The culture of COFFEE</p>
+                    <!--<p class="banner-body-text">Learn more about us.</p>-->
+                    <p class="banner-btn">
+                        <a class="btn" href="#"> Learn more about us. </a>
+                    </p>
+                </span>
+            </div>
+        </section>
+
+        <!--Showcase Gallery-->
+        <div class="fullwidth">
+            <div id="sourcesText">
+                <h1>Sources</h1>
+            </div>>
+            <div class="gallery">
+                <figure class="item">
+                    <div class="img-wrap">
+                        <img src="siteAssets/nobg/boabeCafeaNobg2.png"
+                            alt="Cafea" />
+                    </div>
+                    <figcaption class="caption">
+                        <h3>Coffea arabica<br />Etiopia, Brazilia</h3>
+                        <a class="btn-buy" href="#">Cumpara</a>
+                    </figcaption>
+                </figure>
+
+                <figure class="item">
+                    <div class="img-wrap">
+                        <img src="siteAssets/nobg/pungaDeCafeaNoBg.png"
+                            alt="" />
+                    </div>
+                    <figcaption class="caption">
+                        <h3>Coffea robusta <br>Vietnam </h3>
+                        <a class="btn-buy" href="#">Cumpara</a>
+                    </figcaption>
+                </figure>
+
+                <figure class="item">
+                    <div class="img-wrap">
+                        <img src="siteAssets/nobg/boabeCafeaLibericaNoBg.png"
+                            alt="" />
+                    </div>
+                    <figcaption class="caption">
+                        <h3>Coffea liberica<br>Malaysia</h3>
+                        <a class="btn-buy" href="#">Cumpara</a>
+                    </figcaption>
+                </figure>
+
+                <figure class="item">
+                    <div class="img-wrap">
+                        <img src="siteAssets/nobg/boabeCafeaExcelsaNoBg.png"
+                            alt="" />
+                    </div>
+                    <figcaption class="caption">
+                        <h3>coffea excelsa<br>Asia de sud-est </h3>
+                        <a class="btn-buy" href="#">Cumpara</a>
+                    </figcaption>
+                </figure>
+
+                <figure class="item">
+                    <div class="img-wrap">
+                        <img src="siteAssets/nobg/boabeCafeaNobg1.png"
+                            alt="" />
+                    </div>
+                    <figcaption class="caption">
+                        <h3>Coffea arabica<br />U.S. <br>prăjire italiană</h3>
+                        <a class="btn-buy" href="#">Cumpara</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <!--Big Gallery-->
+        <section id="galleryPhotos" class="galleryImagess">
+            <img src="siteAssets/stockIMG/cafeaMasina.jpg" class="galleryContent" alt="Coffee1" />
+            <img src="siteAssets/stockIMG/cafeaFrisca.jpg"class="galleryContent" alt="Coffee2" />
+            <img src="siteAssets/stockIMG/canaCafeaDesen.jpg" class="galleryContent" alt="Coffee2" />
+            <img src="siteAssets/stockIMG/canaCafeaSiBackgroud1.jpg" class="galleryContent" alt="Coffee3" />
+            <img src="siteAssets/stockIMG/canaCafeaSiBackgroud2.jpg" class="galleryContent" alt="Coffee4" />
+            <img src="siteAssets/stockIMG/canaCafeaSiBackgroud4.jpg" class="galleryContent" alt="Coffee6" />
+            <img src="siteAssets/stockIMG/canaCafeaLaptop.jpg" class="galleryContent" alt="Coffee13" />
+            <img src="siteAssets/stockIMG/canaCafeaSimpla4.jpg" class="galleryContent" alt="Coffee15" />
+            <img src="siteAssets/stockIMG/canaCafeaSimpla1.jpg" class="galleryContent" alt="Coffee18" />
+            <img src="siteAssets/stockIMG/canaCafeaSiBackgroud3.jpg" class="galleryContent" alt="Coffee5" />
+            <img src="siteAssets/stockIMG/canaCafeaDesen5.jpg" class="galleryContent" alt="Coffee9" />
+            <img src="siteAssets/stockIMG/canaCafeaDesen1.jpg" class="galleryContent" alt="Coffee11" />
+            <img src="siteAssets/stockIMG/canaCafeaSimpla3.jpg" class="galleryContent" alt="Coffee7" />
+            <img src="siteAssets/stockIMG/canaCafeaDesen2.jpg" class="galleryContent" alt="Coffee12" />
+            <img src="siteAssets/stockIMG/canaCafeaSimpla2.jpg" class="galleryContent" alt="Coffee14" />
+            <img src="siteAssets/stockIMG/canaCafeaDesen10.jpg" class="galleryContent" alt="Coffee17" />
+            <img src="siteAssets/stockIMG/canaCafeaDesen8.jpg" class="galleryContent" alt="Coffee8" />
+            <img src="siteAssets/stockIMG/canaCafeaDesen2.jpg" class="galleryContent" alt="Coffee10" />
+            <img src="siteAssets/stockIMG/canaCafeaDesen9.jpg" class="galleryContent" alt="Coffee16" />
+
+
+        </section>
+
+
+        <!--Footer-->
+        <section class="top-banner-section">
+            <div class="banner-image-div">
+                <img class="banner-image" id="heroImage"
+                    src="siteAssets/siteIMG/Footer-albastru.png"
+                    alt="Banner Image" />
+            </div>
+            <div class="banner-overlay-div"></div>
+        </section>
+    </main>
+
+    <script>
+        window.addEventListener("load", function () {
+            const loader = document.querySelector("img");
+            showPage();
+        });
+        function showPage() {
+            document.getElementById("loadingScreen").style.display = "none";
+            document.getElementById("mainContent").style.display = "block";
+        }
+    </script>
+
 </body>
+
 </html>
